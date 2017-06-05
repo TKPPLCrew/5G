@@ -1,73 +1,105 @@
 doctype html
 html
   head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title TKPPL
-
-    link(rel='stylesheet', type='text/css', href='build/build.css')
-
-  body
-
-    article
-
-      section
-        h1 Teknologi Jaringan 5G
-
-      section
-        h2 Anggota 
-        <p>1. Josua Biondi Pardosi</p>
-        <p>2. Ricky Sianipar</p>
-        <p>3. Suwardi Hutagalung</p>
-        <p>4. Agung Wibisono </p>
-      section
-        h2 Jaringan 5G
-        <p>5G atau Fifth Generation (generasi kelima) adalah sebuah istilah yang digunakan untuk menyebut generasi kelima sebagai fase berikutnya dari standar telekomunikasi seluler meleibih standar 4G.[1][2] Teknologi generasi kelima ini direncanakan akan resmi diliris untuk sistem operasi seluler pada 2020, sehingga saat ini masih terlalu dini untuk mengetahui akan seperti apa teknologi 5G tersebut.</p>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-        ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
-
-      section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
-
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
-
-    script(src='build/build.js')
+    meta(name='viewport', content='width=device-width')
+    title HTML5
+    link(rel='stylesheet', type='text/css', href='style.css')
+    link(rel='stylesheet', type='text/css', href='themes.css')
+    link(href='http://fonts.googleapis.com/css?family=Raleway+Dots', rel='stylesheet', type='text/css')
+  body.coverflow(style='background-image:url(foto/1.png)')
+    #main
+      article
+        section
+          img(src='foto/4.png')
+          h1
+            | TKPPL
+            br
+            | JARINGAN 4G/5G
+            br
+            | L
+          h2(style='font-size: 35px; top: 20%; text-align: center;')
+        section
+          img(src='foto/jurusan.png')
+          h1(style='top: 65%; font-size: 100px;') KELOMPOK 8:
+          h2(style='top: 60%; font-size: 20px;')
+            | - Josua Pardosi
+            br
+            | - Ricky Sianipar
+            br
+            | - Suwardi Hutagalung
+        section
+          img(src='foto/2.png')
+          h1 TKPPL
+          h2
+            | TKPPL adalah pembelajaran pengemebangan perangkat lunak. Dalam pemebelajaran ini,mahasiswa dapat mengetahui metode yang baik dalam pengembanga perangkat lunak,dengan kolaborasi.
+        section
+          img(src='foto/3.png')
+          h1(font-style:='') Teknologi 4G
+          h2(style='top: 20%; font-size: 20px;')
+            | 4G adalah singkatan dari istilah dalam bahasa Inggris: fourth-generation technology. Istilah ini umumnya digunakan mengacu kepada standar generasi keempat dari teknologi telepon seluler. 4G merupakan pengembangan dari teknologi 3G dan 2G. Jaringan ini dimaksudkan sebagai solusi jaringan komunikasi yang komprehensif dan aman dengan kecepatan data yang jauh lebih cepat dari generasi sebelumnya.
+        section
+          img(src='foto/6.png')
+          h1(style='font-size: 60px;') Teknologi 4G
+          h2(style='top: 20%; font-size: 18px;')
+            | Salah satu implementasi jaringan 4G terdapat pada teknologi WiMax, yang merupakan versi lebih cepat dari transfer data nirkabel melalui jaringan WiFi. LTE adalah teknologi lain yang berusaha mendapatkan standar 4G meskipun belum cukup memenuhi persyaratan ITU untuk kecepatan data. Meskipun demikian, WiMax dan LTE telah diberi label sebagai jaringan 4G, meskipun pengakuannya masih memicu sedikit kebingungan dan kontroversi. Karena kedua metode tersebut menggunakan paket IP dan telah menunjukkan kemajuan dibandingkan standar 3G, ITU akhirnya menyetujui pelabelan mereka sebagai 4G.
+        section
+          img(src='foto/7.png')
+          h1(style='top :20%; font-size: 60px;') Teknologi Sebelum 4G
+          h2(style='top: 20%; font-size: 18px;')
+            | Jaringan nirkabel pertama, yang dikenal sebagai 1G, diluncurkan pada tahun 1980. 2G kemudian diperkenalkan pada awal 1990-an yang memungkinkan lebih banyak transmisi per saluran komunikasi. Selanjutnya, peletakan dasar 3G mulai dilakukan pada akhir tahun 1990-an dan mulai diterapkan di sebagian besar dunia di awal abad ke-21. Sementara jaringan 3G merupakan yang pertama memungkinkan aplikasi multimedia, jaringan 4G menjanjikan membawa teknologi dasar ini ke level berikutnya
+        section
+          img(src='foto/6.png')
+          h1(style='top: 30%; font-size: 50px;') TEKNOLOGI 5G
+          h2(style='top: 20%; font-size: 18px;')
+            | 5G atau Fifth Generation (generasi kelima) adalah sebuah istilah yang digunakan untuk menyebut generasi kelima sebagai fase berikutnya dari standar telekomunikasi seluler meleibih standar 4G. Teknologi generasi kelima ini direncanakan akan resmi diliris untuk sistem operasi seluler pada 2020, sehingga saat ini masih terlalu dini untuk mengetahui akan seperti apa teknologi 5G tersebut
+        section
+          img(src='foto/6.png')
+          h1(style='top: 30%; font-size: 50px;') TEKNOLOGI 5G
+          h2(style='top: 20%; font-size: 18px;')
+            | Dalam teknologi 5G, data akan dikirimkan melalui gelombang radio. Gelombang radio akan terbagi menjadi frekuensi-frekuensi yang berbeda. Setiap frekuensi disiapkan untuk tipe komunikasi yang berbeda, seperti aeronautical dan sinyal navigasi maritim, siaran televisi, dan mobile data. Penggunaan frekuensi-frekuensi ini diregulasikan oleh International Telecommunication Union (ITU). ITU telah merestrukturasi bagian-bagian gelombang radio secara komprehensif untuk mentransmisikan data sambil mengembangkan teknologi komunikasi yang sudah ada termasuk 4G dan 3G.
+        section
+          img(src='foto/6.png')
+          h1(style='top: 30%; font-size: 50px;') TEKNOLOGI 5G
+          h2(style='top: 20%; font-size: 18px;')
+            | Teknologi 5G belum dapat dipastikan seperti apa keunggulan dan kekurangannya karena saat ini hal itu masih berupa konsep. Tetapi dari konsep-konsep yang diciptakan tersebut, terdapat beberapa konsep yang menjadi tujuan utama dari teknologi 5G, yaitu:
+            ol
+              li Kecepatan data yang lebih signifakan dari 4G.
+              li
+                | Memiliki transfer data dari satu telepon ke telepon lain dengan kecepatan satu mili detik.
+              li Dapat terkoneksi dengan alat seperti telepon, mobil, dan peralatan rumah tangga.
+            | >
+            | 					Teknologi 5G diprediksi memiliki kecepatan sekitar 800Gbps, atau seratus kali lebih cepat dari kecepatan generasi sebelumnya. Dengan kecapatan seperti itu, teknologi 5G bisa memungkinkan untuk mengunduh 33 film High Definition hanya dalam beberapa detik.
+        section
+          img(src='foto/6.png')
+          h1 Rencana Peluncuran
+          h2(style='top: 20%;')
+            | Berdasarkan pada kongres Mobile World Congress (MWC) yang dihadiri oleh Nokia, Huawei, dan Ericsson di Barcelona, teknologi 5G masih belum dapat dipastikan tanggal lirisnya karena masih dalam tahap pengembangan. Namun, Nokia dan operator Jepang NTT DoComo berasumsi bahwa teknologi 5G akan diliris pada Tokyo Olympics tahun 2020.
+        section
+          img(src='foto/6.png')
+          h1(style='top: 24%;') Rencana Peluncuran
+          h2(style='top: 10%;')
+            | Di Korea Selatan, teknologi 5G ini sedang dikembangkan dan diprediksi kecepatan maksimalnya dapat mencapai 100 kali lebih cepat dibanding teknologi 4G, atau lebih tepatnya 10Gbps (10 Giga bit per detik).[4] Rencananya, jaringan 5G akan mulai diterapkan di Korea Selatan pada tahun 2017 dan baru dapat digunakan secara komersial pada tahun 2020.
+            | AT&T yang merupakan salah satu operator jaringan seluler di amerika serikat yang akan mencoba teknologi terbaru ini di Kota Austin dan Indianapolis yang berada di Amerika Serikat, saat melakukan uji coba teknologi 5G, AT&A akan menetapkan kecepatan 400Mbps dan kabarkan akan beroperasi di Amerika Serikat pada tahun 2018. Dan kabarnya juga Indonesia akan menggunakan teknologi ini pada tahun 2020.
+        section
+          img(src='foto/6.png')
+          h1 Penutup
+          h2(style='top: 20%; font-size: 80px;')
+            | Terima Kasih
+          | >
+    footer
+      .credits
+        p(style='top: 60%; font-size: 20px;')
+          | Mikroskil 
+          br
+          a(href='https://id.wikipedia.org/wiki/5G') wikipedia
+          br
+      .themes
+        p
+          strong
+            | Example Theme
+            span.colon :
+          span#theme
+        #up-arrow.up.arrow ^
+        #down-arrow.down.arrow ^
+    script(src='src/bespoke.js')
+    script(src='demo.js')
