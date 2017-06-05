@@ -1,6 +1,6 @@
 Kelompok 8:
 
-Josua Biondi Pardosi
-Ricky Sianipar
-Suwardi Hutagalung
-Agung Wibisono
+- Josua Biondi Pardosi
+- Ricky Sianipar
+- Suwardi Hutagalung
+- Agung Wibisono
